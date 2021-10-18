@@ -31,9 +31,9 @@ public class IntroToArrayLists {
 			}
 		}
 		// 6. Print all the Strings in reverse order.
-		for(int i = 5;i > yayeet.size(); i--){
+		for(int i = 4;i > -1; i--){
 			String y = yayeet.get(i);
-			System.out.println("Element "+i+" is "+y);
+			System.out.println("reverse element order "+i+" is "+y);
 		}
 		 //7. Print only the Strings that have the letter 'e' in them.
 		for(int i = 0; i < yayeet.size();i++) {
